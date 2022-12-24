@@ -1,0 +1,397 @@
+html * {
+    /* font-size: 1em !important; */
+    font-family: o !important;
+}
+
+.admin-header {
+    width: 100%;
+    height: 60px;
+    margin-top: auto;
+    display: block;
+    padding: 10px;
+}
+
+.admin-header-name-div {
+    height: max-content;
+    width: 117px;
+    margin: 10px;
+}
+
+.admin-header-profile {
+    float: right;
+    height: 61px;
+    width: 154px;
+    margin: -45px 0px 0px 0px;
+    padding: 1px;
+}
+
+.admin-main-right-div-before {
+    border: 1px solid black;
+    float: right;
+    height: 100%;
+    margin-top: -9px;
+}
+
+.admin-main-right-div-after {
+    border: 1px solid black;
+    height: 100%;
+    /* width: 100%; */
+    margin-top: 0px;
+}
+
+.note-container {
+    min-height: fit-content;
+    max-height: 330px;
+    overflow: hidden;
+}
+
+.note-container:hover {
+    box-shadow: 0px 1px 8px 2px #cacbcc;
+}
+
+.note-popup-editor {
+    /* max-height: 150px;
+        max-width: 150px;
+        border: 1px solid #cacbcc;
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 1050;
+        overflow: hidden;
+        -webkit-overflow-scrolling: touch;
+        outline: 0;
+        background-color: white; */
+}
+
+#notes-popup-container {
+    /* background-color: lightgray;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        display: block;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 1000;
+        opacity: 0.7;
+        filter: alpha(opacity=70); */
+}
+
+.footer {
+    position: inherit;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+}
+
+.popup-close-btn {
+    background-color: transparent;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+    outline: none;
+}
+
+input[type="button"]:focus {
+    /* your custom focused styles here */
+    border: 0;
+    outline: none;
+}
+
+input[type="button"] {
+    outline: none;
+}
+
+.stretch-card>.card {
+    width: 100%;
+    min-width: 100%;
+}
+
+body {
+    background-color: #f9f9fa;
+}
+
+.flex {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+@media (max-width:991.98px) {
+    .padding {
+        padding: 1.5rem;
+    }
+}
+
+@media (max-width:767.98px) {
+    .padding {
+        padding: 1rem;
+    }
+}
+
+.padding {
+    padding: 3rem;
+}
+
+.card {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #3da5f;
+    /* border-radius: 0; */
+}
+
+.card .card-body {
+    padding: 1.25rem 1.75rem
+}
+
+.card .card-title {
+    color: #000000;
+    margin-bottom: 0.625rem;
+    text-transform: capitalize;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.card .card-description {
+    margin-bottom: .875rem;
+    font-weight: 400;
+    color: #76838f;
+}
+
+.btn.btn-social-icon {
+    width: 50px;
+    height: 50px;
+    padding: 0;
+}
+
+.template-demo>.btn {
+    margin-right: 0.5rem !important;
+}
+
+.template-demo {
+    margin-top: 0.5rem !important;
+}
+
+.btn.btn-rounded {
+    border-radius: 50px;
+}
+
+.btn-outline-facebook {
+    border: 1px solid #3b579d;
+    color: #3b579d;
+}
+
+.btn-outline-facebook:hover {
+    background: #3b579d;
+    color: #ffffff;
+}
+
+.btn-outline-youtube {
+    border: 1px solid #e52d27;
+    color: #e52d27;
+}
+
+.btn-outline-twitter {
+    border: 1px solid #2caae1;
+    color: #2caae1;
+}
+
+.btn-outline-dribbble {
+    border: 1px solid #ea4c89;
+    color: #ea4c89;
+}
+
+.btn-outline-linkedin {
+    border: 1px solid #0177b5;
+    color: #0177b5;
+}
+
+.btn-outline-instagram {
+    border: 1px solid #dc4a38;
+    color: #dc4a38;
+}
+
+.btn-outline-twitter:hover {
+    background: #2caae1;
+    color: #ffffff;
+}
+
+.btn-outline-linkedin:hover {
+    background: #0177b5;
+    color: #ffffff;
+}
+
+.btn-outline-youtube:hover {
+    background: #e52d27;
+    color: #ffffff;
+}
+
+.btn-outline-instagram:hover {
+    background: #e52d27;
+    color: #ffffff;
+}
+
+.btn-facebook {
+    background: #3b579d;
+    color: #ffffff;
+}
+
+.btn-youtube {
+    background: #e52d27;
+    color: #ffffff;
+}
+
+.btn-twitter {
+    background: #2caae1;
+    color: #ffffff;
+}
+
+.btn-dribbble {
+    background: #ea4c89;
+    color: #ffffff;
+}
+
+.btn-linkedin {
+    background: #0177b5;
+    color: #ffffff;
+}
+
+.btn-instagram {
+    background: #dc4a38;
+    color: #ffffff;
+}
+
+.btn-facebook:hover,
+.btn-facebook:focus {
+    background: #2d4278;
+    color: #ffffff;
+}
+
+.btn-youtube:hover,
+.btn-youtube:focus {
+    background: #c21d17;
+    color: #ffffff;
+}
+
+.btn-twitter:hover,
+.btn-twitter:focus {
+    background: #1b8dbf;
+    color: #ffffff;
+}
+
+.btn-dribbble:hover,
+.btn-dribbble:focus {
+    background: #e51e6b;
+    color: #ffffff;
+}
+
+.btn-linkedin:hover,
+.btn-linkedin:focus {
+    background: #015682;
+    color: #ffffff;
+}
+
+.btn-instagram:hover,
+.btn-instagram:focus {
+    background: #bf3322;
+    color: #ffffff;
+}
+
+.breadcrumb>li+li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0";
+}
+
+table:hover {
+    box-shadow: 0px 1px 8px 2px #cacbcc;
+}
+
+input[type="radio"] {
+    height: 1rem;
+    width: 1rem;
+}
+
+.quediv:hover {
+    box-shadow: 0px 4px 9px 4px #cacbcc;
+}
+
+path {
+    fill: white;
+}
+
+.login-modal:hover {
+    box-shadow: 0px 0px 10px 10px #cacbcc;
+    transform: scale(1);
+}
+
+.login-modal {
+    transition: all 0.3s ease;
+    transform: rotateY(9deg) scale(0.95);
+}
+
+.table {
+    overflow-y: scroll!important;
+    padding-bottom: 1rem!important;
+    margin-bottom: 3rem!important;
+}
+
+#txtHint {
+    overflow-y: scroll!important;
+    padding-bottom: 1rem!important;
+    margin-bottom: 3rem!important;
+}
+
+.image-container {
+    height: auto;
+    width: 100vh;
+    position: absolute;
+    padding: 0px 0px 0px 85px;
+}
+
+.image-container2 {
+    height: auto;
+    position: absolute;
+    float: right;
+    /* z-index: 5; */
+    margin: -290px auto auto 127%;
+}
+
+.image-container img {
+    content: url("../img/index.png");
+}
+
+.image-container2 img {
+    content: url("../img/NSDC-logo.png");
+    height: auto;
+    width: 420px;
+    position: absolute;
+}
+
+.image-container2 img:nth-child(2) {
+    content: url("../img/nats.png");
+    height: auto;
+    width: 420px;
+    position: absolute;
+    margin: 265px auto auto auto;
+}
